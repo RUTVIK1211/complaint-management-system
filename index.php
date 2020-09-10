@@ -6,6 +6,6 @@
     <title>this is index of user</title>
 </head>
 <body>
-    this is an siple php file 
+        <p>this is pararage</p>
 </body>
 </html>
