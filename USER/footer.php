@@ -8,7 +8,7 @@
             </div>
             <div class="tm-col-right tm-col-footer">
                 <footer class="tm-site-footer text-right">
-                    <p class="mb-0">Copyright 2020 Diagoona Co. | Design: ASOIT</a></p>
+                    <p class="mb-0">Copyright 2020 ABIJR Co. | Design: ABIJR </a></p>
                 </footer>
             </div>
         </div>

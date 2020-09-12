@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Diagoona HTML CSS Template</title>
+    <title>Complain System.</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
     <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
@@ -21,14 +21,12 @@
                    <div class="tm-site-header media">
                         <i class="fas fa-umbrella-beach fa-3x mt-1 tm-logo"></i>
                         <div class="media-body">
-                            <h2 class="tm-sitename text-uppercase">Student Complaint System</h2>
+                            <h2 class="tm-sitename text-uppercase">Complaint System</h2>
                             <p class="tm-slogon">We are here for you.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
             <div class="tm-row">
                 <div class="tm-col-left"></div>
                 <main class="tm-col-right tm-contact-main">
@@ -59,8 +57,7 @@
                             </div>
                             <div class="text-right mb-2" >
                                 <button type="submit" class="btn btn-big btn-primary">Register Me!!</button>
-                            </div>
-                            <div class="text-right mb-2">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <button type="reset" class="btn btn-big btn-primary">Reset</button>
                             </div>
                         </form>
