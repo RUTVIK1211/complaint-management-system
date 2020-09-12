@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
 
     <meta charset="utf-8">
@@ -28,7 +27,7 @@ https://templatemo.com/tm-529-ramayana
   <body class="is-preload">
 
     <!-- Wrapper -->
-     <div id="wrapper"> 
+     <div id="wrapper">
 
       <!-- Main -->
         <div id="main">
@@ -40,7 +39,7 @@ https://templatemo.com/tm-529-ramayana
                 <a href="#">Complain System</a>
               </div>
             </header>
-    
+
       <form id="contact" action="" method="post">
                       <div class="row">
                         <div class="col-md-6">
@@ -54,9 +53,9 @@ https://templatemo.com/tm-529-ramayana
                           </fieldset>
                         </div>
                         <div  style = "height:70px">
-                          
+
                         </div>
-                        
+
                         <div class="col-md-6">
                           <fieldset>
                             <input name="manager_Name" type="text" class="form-control" id="Manager_Name" placeholder="Managed By Name" required="">
@@ -70,7 +69,7 @@ https://templatemo.com/tm-529-ramayana
                         </div>
 
                         <div  style = "height:70px">
-                          
+
                         </div>
 
                         <div class="col-md-6">
@@ -81,7 +80,7 @@ https://templatemo.com/tm-529-ramayana
 
                         <div style = "height:70px ; width:1500px">
                         </div>
-                           
+
                         <div class="col-md-2">
                           <button type="submit" id="form-submit" class="button">Register</button>
                         </div>
@@ -89,7 +88,7 @@ https://templatemo.com/tm-529-ramayana
                         <div class="col-md-1">
                           <button type="reset" id="form-reset" class="button">Reset</button>
                         </div>
-                        
+
                       </div>
-                      
+
                     </form>

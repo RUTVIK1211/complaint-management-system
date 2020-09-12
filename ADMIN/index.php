@@ -141,15 +141,12 @@
           </div>
         </div>
 
-     
+
         <!-- **************************************---------------menu & footer--------------********************** -->
 
         <?php require_once 'sidebar.php'; ?>
 
-            
-          
 
-    
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
