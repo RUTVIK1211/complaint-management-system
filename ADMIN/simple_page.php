@@ -28,15 +28,15 @@
                     </div>
                   </div>
                 </div>
-                
-               
-                
+
+
+
               </div>
             </section>
-            
+
             <section class="simple-post">
               <div class="container-fluid">
-              
+
                <div class="row">
                   <div class="col-md-6">
 						<h2>.02 Left Column</h2>
@@ -52,13 +52,13 @@
 
                   </div>
                 </div>
-                
+
               </div>
               </section>
-              
+
               <section class="simple-post">
               <div class="container-fluid">
-              
+
                <div class="row">
                   <div class="col-lg-4">
 						<h2>First Column</h2>
@@ -78,7 +78,7 @@
 
                   </div>
                 </div>
-                
+
               </div>
               </section>
 
@@ -110,7 +110,7 @@
                           </fieldset>
                         </div>
                       </div>
-                    </form> 
+                    </form>
                   </div>
                   <div class="col-md-6">
                     <div id="map">
@@ -131,8 +131,8 @@
           </div>
         </div>
 
-      
-      
+
+
      <!-- **************************************--------------- menu & footer --------------********************** -->
 
      <?php require_once 'sidebar.php'; ?>
@@ -140,19 +140,5 @@
 
 
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/transition.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/custom.js"></script>
-</body>
-
-
-  </body>
 
 </html>

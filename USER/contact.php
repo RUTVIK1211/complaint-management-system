@@ -1,8 +1,6 @@
 
 <?php require_once 'header.php'; ?>
-            <div class="tm-row">
-
-
+    <div class="tm-row">
        <div class="tm-row">
                 <div class="tm-col-left"></div>
                 <main class="tm-col-right tm-contact-main">
@@ -26,12 +24,7 @@
                     </section>
                 </main>
             </div>
-
         </div>
-
-        </div> -->
-        <div class="tm-container">
-        <div>
-        <?php require_once 'header.php'; ?>
-        </div>
+    </div>
+</div>
 <?php require_once 'footer.php'; ?>
