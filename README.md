@@ -1,2 +1,2 @@
 # complaint-management-system
-this is an simple 
+This is an complain management system for an institute or organaization.
