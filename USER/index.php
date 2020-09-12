@@ -1,5 +1,4 @@
 <?php require_once 'header.php'; ?>
-
             <div class="tm-row">
                 <div class="tm-col-left"></div>
                 <main class="tm-col-right">
