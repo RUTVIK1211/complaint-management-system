@@ -10,17 +10,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
     <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
     <link href="css/templatemo-diagoona.css" rel="stylesheet" />
-<!--
 
-TemplateMo 550 Diagoona
-
-https://templatemo.com/tm-550-diagoona
-
--->
 </head>
 
 <body>
-    
+
             <div class="tm-row pt-4">
                 <div class="tm-col-left">
                    <div class="tm-site-header media">
@@ -57,6 +51,6 @@ https://templatemo.com/tm-550-diagoona
                     </nav>
                 </div>
             </div>
-    
+
 	</body>
 </html>

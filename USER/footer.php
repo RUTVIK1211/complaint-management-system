@@ -8,11 +8,7 @@
             </div>
             <div class="tm-col-right tm-col-footer">
                 <footer class="tm-site-footer text-right">
-<<<<<<< HEAD
                     <p class="mb-0">Copyright 2020 Diagoona Co. | Design: ASOIT</a></p>
-=======
-                    <p class="mb-0">Copyright 2020 ABIJR Co. | Design: <a rel="nofollow" target="_parent" href="https://templatemo.com" class="tm-text-link">ABIJR</a></p>
->>>>>>> db7ef1ba0277f71858fe1c0d440c6eff4f993eed
                 </footer>
             </div>
         </div>
