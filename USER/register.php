@@ -1,7 +1,40 @@
-<?php require_once 'header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diagoona HTML CSS Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+    <link href="css/templatemo-diagoona.css" rel="stylesheet" />
+<!--
+
+TemplateMo 550 Diagoona
+
+https://templatemo.com/tm-550-diagoona
+
+-->
+</head>
+
 <body>
-    <div class="tm-container">
+<div class="tm-container">        
         <div>
+            <div class="tm-row pt-4">
+                <div class="tm-col-left">
+                   <div class="tm-site-header media">
+                        <i class="fas fa-umbrella-beach fa-3x mt-1 tm-logo"></i>
+                        <div class="media-body">
+                            <h2 class="tm-sitename text-uppercase">Student Complaint System</h2>
+                            <p class="tm-slogon">We are here for you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
             <div class="tm-row">
                 <div class="tm-col-left"></div>
                 <main class="tm-col-right tm-contact-main">
@@ -30,8 +63,11 @@
                             <div class="form-group mb-4">
                                 <input type="type" name="contact" class="form-control" placeholder="Contact No" required="" />
                             </div>
-                            <div class="text-right">
+                            <div class="text-right mb-2" >
                                 <button type="submit" class="btn btn-big btn-primary">Register Me!!</button>
+                            </div>
+                            <div class="text-right mb-2">
+                                <button type="reset" class="btn btn-big btn-primary">Reset</button>
                             </div>
                         </form>
                     </section>

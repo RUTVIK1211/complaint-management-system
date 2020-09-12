@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Diagoona HTML CSS Template</title>
+    <title>Student Complain System</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
     <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
@@ -20,15 +20,14 @@ https://templatemo.com/tm-550-diagoona
 </head>
 
 <body>
-    <div class="tm-container">
-        <div>
+    
             <div class="tm-row pt-4">
                 <div class="tm-col-left">
                    <div class="tm-site-header media">
                         <i class="fas fa-umbrella-beach fa-3x mt-1 tm-logo"></i>
                         <div class="media-body">
                             <h2 class="tm-sitename text-uppercase">Student Complaint System</h2>
-                            <p class="tm-slogon">We r here for U.</p>
+                            <p class="tm-slogon">We are here for you.</p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +40,7 @@ https://templatemo.com/tm-550-diagoona
                         </button>
                         <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
                             <ul class="navbar-nav text-uppercase">
-                                <li class="nav-item active">
+                                <li class="nav-item">
                                     <a class="nav-link tm-nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
@@ -58,3 +57,6 @@ https://templatemo.com/tm-550-diagoona
                     </nav>
                 </div>
             </div>
+    
+	</body>
+</html>
