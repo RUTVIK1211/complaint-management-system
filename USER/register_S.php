@@ -63,8 +63,11 @@ https://templatemo.com/tm-550-diagoona
                             <div class="form-group mb-4">
                                 <input type="type" name="contact" class="form-control" placeholder="Contact No" required="" />
                             </div>
-                            <div class="text-right">
+                            <div class="text-right mb-2" >
                                 <button type="submit" class="btn btn-big btn-primary">Register Me!!</button>
+                            </div>
+                            <div class="text-right mb-2">
+                                <button type="reset" class="btn btn-big btn-primary">Reset</button>
                             </div>
                         </form>
                     </section>
