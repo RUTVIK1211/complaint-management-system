@@ -1,7 +1,7 @@
-s<?php require_once 'header.php'; ?>
-            <div class="tm-row">
+
+            <!-- <div class="tm-row">
                 <div class="tm-col-left"></div>
-                <main class="tm-col-right tm-contact-main"> <!-- Content -->
+                <main class="tm-col-right tm-contact-main"> 
                     <section class="tm-content tm-contact">
                         <h2 class="mb-4 tm-content-title">Contact Us</h2>
                         <p class="mb-85">Etiam et egestas arcu. Fusce congue quis elit vitae commodo. Cras neque mauris, vehicula in ipsum sit amet, faucibus aliquam arcu.</p>
@@ -22,6 +22,10 @@ s<?php require_once 'header.php'; ?>
                     </section>
                 </main>
             </div>
+        </div> -->
+        <div class="tm-container">
+        <div>
+        <?php require_once 'header.php'; ?>
         </div>
 
 <?php require_once 'footer.php'; ?>
