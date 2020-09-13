@@ -1,5 +1,5 @@
-
-            <!-- <div class="tm-row">
+<?php require_once 'header.php'; ?>
+        <div class="tm-row">
                 <div class="tm-col-left"></div>
                 <main class="tm-col-right tm-contact-main"> 
                     <section class="tm-content tm-contact">
@@ -22,10 +22,5 @@
                     </section>
                 </main>
             </div>
-        </div> -->
-        <div class="tm-container">
-        <div>
-        <?php require_once 'header.php'; ?>
-        </div>
-
+   
 <?php require_once 'footer.php'; ?>
