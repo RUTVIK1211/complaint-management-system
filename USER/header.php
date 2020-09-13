@@ -25,9 +25,10 @@ https://templatemo.com/tm-550-diagoona
             <div class="tm-row pt-4">
                 <div class="tm-col-left">
                     <div class="tm-site-header media">
-                        <i class="fas fa-umbrella-beach fa-3x mt-1 tm-logo"></i>
+                        <!-- <i class="fas fa-umbrella-beach fa-3x mt-1 tm-logo"></i> -->
+                        <img src="img/logo.png" />
                         <div class="media-body">
-                            <h1 class="tm-sitename text-uppercase">Complaint System</h1>
+                            <h1 class="tm-sitename text-uppercase">Complain System</h1>
                             <p class="tm-slogon">We are here for you.</p>
                         </div>        
                     </div>
@@ -42,16 +43,16 @@ https://templatemo.com/tm-550-diagoona
                         <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
                             <ul class="navbar-nav text-uppercase">
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="index.php">Home</a>
+                                    <a class="nav-link tm-nav-link" href="home.php">Home</a>
                                 </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link tm-nav-link" href="about.php">About <span class="sr-only">(current)</span></a>
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="about.php">About</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link tm-nav-link" href="services.php">Services</a>
                                 </li>                            
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="contact.php">Contact</a>
+                                    <a class="nav-link tm-nav-link" href="writecomplain.php">Write Complain</a>
                                 </li>
                             </ul>                            
                         </div>                        
