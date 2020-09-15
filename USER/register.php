@@ -13,11 +13,6 @@
     <!-- https://fontawesome.com/ -->
     <link href="css/templatemo-diagoona.css" rel="stylesheet" />
 
-<!--
-TemplateMo 550 Diagoona
-https://templatemo.com/tm-550-diagoona
--->
-
 </head>
 <body>
     <div class="tm-container">
@@ -41,25 +36,25 @@ https://templatemo.com/tm-550-diagoona
                         <h3 class="mb-4 tm-content-title">Registeration</h3>
                         <form id="contact-form" action="" method="POST">
                             <div class="form-group mb-4">
-                                <input type="text" name="name" class="form-control" placeholder="Full Name" required="" />
+                                <input type="text" name="name" class="form-control" placeholder="Full Name"  />
                             </div>
                             <div class="form-group mb-4">
-                                <input type="email" name="email" class="form-control" placeholder="Email id" required="" />
+                                <input type="email" name="email" class="form-control" placeholder="Email id"  />
                             </div>
                             <div class="form-group mb-4">
-                                <input type="password" name="password" class="form-control" placeholder="Password" required="" />
+                                <input type="password" name="password" class="form-control" placeholder="Password"  />
                             </div>
                             <div class="form-group mb-4">
-                                <input type="text" name="enroll_no" class="form-control" placeholder="Enrollment No" required="" />
+                                <input type="text" name="enroll_no" class="form-control" placeholder="Enrollment No"  />
                             </div>
                             <div class="form-group mb-4">
-                                <input type="type" name="sem" class="form-control" placeholder="Semester" required="" />
+                                <input type="type" name="sem" class="form-control" placeholder="Semester" />
                             </div>
                             <div class="form-group mb-4">
-                                <input type="text" name="dept" class="form-control" placeholder="Department" required="" />
+                                <input type="text" name="dept" class="form-control" placeholder="Department"  />
                             </div>
                             <div class="form-group mb-4">
-                                <input type="type" name="contact" class="form-control" placeholder="Contact No" required="" />
+                                <input type="tel" name="contact" class="form-control" placeholder="Contact No" pattern="[0-9]{10}" title="Write correct Phone number of 10 digit" />
                             </div>
                             <div class="text-right">
                                 <button type="submit" class="btn btn-big btn-primary">Register Me!!</button>
@@ -70,30 +65,4 @@ https://templatemo.com/tm-550-diagoona
                     </section>
                 </main>
             </div>
-        </div>        
-        <div class="tm-row">
-            <div class="tm-col-left text-center">            
-                <ul class="tm-bg-controls-wrapper">
-                    <li class="tm-bg-control active" data-id="0"></li>
-                    <li class="tm-bg-control" data-id="1"></li>
-                    <li class="tm-bg-control" data-id="2"></li>
-                </ul>            
-            </div>        
-            <div class="tm-col-right tm-col-footer">
-                <footer class="tm-site-footer text-right">
-                    <p class="mb-0">Copyright 2020 ABIJR Co. 
-                    | Design By: ABIJR</a></p>
-                </footer>
-            </div>  
-        </div>
-        <div class="tm-bg"> <!-- Diagonal background design -->
-            <div class="tm-bg-left"></div>
-            <div class="tm-bg-right"></div>
-        </div>
-    </div>
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.backstretch.min.js"></script>
-    <script src="js/templatemo-script.js"></script>
-</body>
-</html>
+<?php require_once 'footer.php'; ?>

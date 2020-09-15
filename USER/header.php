@@ -10,13 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
     <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
     <link href="css/templatemo-diagoona.css" rel="stylesheet" />
-<!--
 
-TemplateMo 550 Diagoona
-
-https://templatemo.com/tm-550-diagoona
-
--->
 </head>
 
 <body>
@@ -28,7 +22,7 @@ https://templatemo.com/tm-550-diagoona
                         <!-- <i class="fas fa-umbrella-beach fa-3x mt-1 tm-logo"></i> -->
                         <img src="img/logo.png" />
                         <div class="media-body">
-                            <h1 class="tm-sitename text-uppercase">Complain System</h1>
+                            <h2 class="tm-sitename text-uppercase">Complain System</h2>
                             <p class="tm-slogon">We are here for you.</p>
                         </div>        
                     </div>
@@ -44,6 +38,9 @@ https://templatemo.com/tm-550-diagoona
                             <ul class="navbar-nav text-uppercase">
                                 <li class="nav-item">
                                     <a class="nav-link tm-nav-link" href="home.php">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="profile.php">profile</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link tm-nav-link" href="about.php">About</a>
