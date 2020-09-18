@@ -12,8 +12,8 @@
             <!-- Menu -->
             <nav id="menu">
               <ul>
-                <li><a href="index.php">Homepage</a></li>
-                <li><a href="simple_page.php">Simple Page</a></li>
+                <li><a href="home.php">Homepage</a></li>
+                <li><a href="AddDepartment.php">Add Department</a></li>
                 <li><a href="shortcodes.php">Shortcodes</a></li>
                 <li>
                   <span class="opener">Dropdown One</span>
@@ -69,6 +69,8 @@
             </footer>
         </div>
 </div></div>
+
+    
 
 
 

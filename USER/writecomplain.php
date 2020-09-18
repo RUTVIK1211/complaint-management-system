@@ -17,6 +17,8 @@
                             </div>
                             <div class="text-right">
                                 <button type="submit" class="btn btn-big btn-primary">Send It</button>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <button type="Reset" class="btn btn-big btn-primary">Reset</button>
                             </div>
                         </form>
                     </section>

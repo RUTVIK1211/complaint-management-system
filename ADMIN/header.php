@@ -37,6 +37,6 @@ https://templatemo.com/tm-529-ramayana
             <!-- Header -->
             <header id="header">
               <div class="logo">
-                <a href="index.php">Complain System</a>
+                <a href="home.php">Complain System</a>
               </div>
             </header>

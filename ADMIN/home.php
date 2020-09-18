@@ -7,7 +7,7 @@
 
 
             <!-- Banner -->
-            <section class="main-banner">
+            <!-- <section class="main-banner">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-12">
@@ -28,10 +28,10 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </section> -->
 
             <!-- Services -->
-            <section class="services">
+            <!-- <section class="services">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-4">
@@ -78,10 +78,10 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </section> -->
 
             <!-- Top Image -->
-            <section class="top-image">
+            <!-- <section class="top-image">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-12">
@@ -96,10 +96,10 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </section> -->
 
             <!-- Left Image -->
-            <section class="left-image">
+            <!-- <section class="left-image">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-6">
@@ -116,10 +116,10 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </section> -->
 
             <!-- Right Image -->
-            <section class="right-image">
+            <!-- <section class="right-image">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-6">
@@ -136,7 +136,7 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </section> -->
 
           </div>
         </div>
@@ -162,7 +162,5 @@
     <script src="assets/js/custom.js"></script>
 </body>
 
-
-  </body>
 
 </html>
