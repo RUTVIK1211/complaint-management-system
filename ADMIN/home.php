@@ -4,10 +4,8 @@
 <!-- ********************************--------------- header -----------------------******************************* -->
 
 <?php require_once 'header.php'; ?>
-
-
             <!-- Banner -->
-            <!-- <section class="main-banner">
+            <section class="main-banner">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-12">
@@ -15,12 +13,12 @@
                       <div class="row">
                         <div class="col-md-12">
                           <div class="banner-caption">
-                            <h4>Hello, this is your <em>Ramayana</em> Theme.</h4>
-                            <span>AWESOME HTML5 &amp; CSS3 TEMPLATE</span>
-                            <p>Do you know that <strong>Ramayana</strong> is a free to use Bootstrap 4 CSS template by <strong>templatemo</strong>? You can edit and add more pages as you wanted for your personal or corporate websites.</p>
-                            <div class="primary-button">
+                            <h4>Hello, this is Student <em>Complain</em> System.</h4>
+                            <span>Let's Solve &amp; Students' problem.</span>
+                            <p>If you ask a student if he/she is facing any problem in the college most probably they will deny even if they are facing any problem. So we need a platform where student can share their problem easily.</p>
+                            <!-- <div class="primary-button">
                               <a href="#">Read More</a>
-                            </div>
+                            </div> -->
                           </div>
                         </div>
                       </div>
@@ -28,57 +26,58 @@
                   </div>
                 </div>
               </div>
-            </section> -->
+            </section>
 
             <!-- Services -->
-            <!-- <section class="services">
+            <section class="services">
               <div class="container-fluid">
                 <div class="row">
+                  
                   <div class="col-md-4">
-                    <div class="service-item first-item">
+                    <div class="service-item second-item">
                       <div class="icon"></div>
-                      <h4>Web Design</h4>
-                      <p>Credit goes to <a rel="nofollow" href="https://www.pexels.com">Pexels</a> and <a rel="nofollow" href="https://www.rawpixel.com">Raw Pixel</a> for images used in this template. Thank you.</p>
+                      <h4>View Pending Complains</h4>
+                      <p>Click <a rel="nofollow" href="">here</a><br><br></p>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="service-item second-item">
                       <div class="icon"></div>
-                      <h4>Bootstrap 4</h4>
-                      <p>Proin aliquam facilisis ante interdum. Sed nulla feugiat tempus aliquam.</p>
+                      <h4>View All Resolved Complain</h4>
+                      <p>Click <a rel="nofollow" href="">here</a><br><br></p>
                     </div>
                   </div>
                   <div class="col-md-4">
-                    <div class="service-item third-item">
+                    <div class="service-item second-item">
                       <div class="icon"></div>
-                      <h4>HTML CSS</h4>
-                      <p>Proin aliquam facilisis ante interdum. Sed nulla feugiat tempus aliquam.</p>
+                      <h4>View All Flagged Student</h4>
+                      <p>Click <a rel="nofollow" href="">here</a><br><br></p>
                     </div>
                   </div>
                   <div class="col-md-4">
-                    <div class="service-item fourth-item">
+                    <div class="service-item second-item">
                       <div class="icon"></div>
-                      <h4>Download Free</h4>
-                      <p>We have many free to use CSS web templates on our site for you.</p>
+                      <h4>View All Department</h4>
+                      <p>Click <a rel="nofollow" href="">here</a><br><br></p>
                     </div>
                   </div>
                   <div class="col-md-4">
-                    <div class="service-item fivth-item">
+                    <div class="service-item second-item">
                       <div class="icon"></div>
-                      <h4>Get in touch</h4>
-                      <p>You can get the fastest response from <a rel="nofollow" href="https://www.facebook.com/templatemo">templatemo</a> facebook page.</p>
+                      <h4>View All Students</h4>
+                      <p>Click <a rel="nofollow" href="">here</a><br><br></p>
                     </div>
                   </div>
                   <div class="col-md-4">
-                    <div class="service-item sixth-item">
+                    <div class="service-item first-item">
                       <div class="icon"></div>
-                      <h4>Spread a word</h4>
-                      <p>Please tell your friends about our website. This is very helpful.</p>
+                      <h4>Add Department </h4>
+                      <p>Click <a rel="nofollow" href="AddDepartment.php">here</a><br><br></p>
                     </div>
                   </div>
                 </div>
               </div>
-            </section> -->
+            </section>
 
             <!-- Top Image -->
             <!-- <section class="top-image">

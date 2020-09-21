@@ -68,7 +68,8 @@
               <br>Designed by <a rel="nofollow" href="index.php">ABIJR</a></p>
             </footer>
         </div>
-</div></div>
+      </div>
+    </div>
 
     
 
