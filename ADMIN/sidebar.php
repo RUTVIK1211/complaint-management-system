@@ -14,7 +14,7 @@
               <ul>
                 <li><a href="home.php">Homepage</a></li>
                 <li><a href="AddDepartment.php">Add Department</a></li>
-                <li><a href="shortcodes.php">Shortcodes</a></li>
+                <li><a href="ViewDepartment.php">View Department</a></li>
                 <li>
                   <span class="opener">Dropdown One</span>
                   <ul>
