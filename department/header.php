@@ -46,11 +46,11 @@
                                     <a class="nav-link tm-nav-link" href="about.php">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="services.php">Services</a>
-                                </li>                            
+                                    <a class="nav-link tm-nav-link" href="services.php">All Complains</a>
+                                </li> 
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="writecomplain.php">Write Complain</a>
-                                </li>
+                                    <a class="nav-link tm-nav-link" href="services.php">Resolved Complain</a>
+                                </li>                         
                             </ul>                            
                         </div>                        
                     </nav>

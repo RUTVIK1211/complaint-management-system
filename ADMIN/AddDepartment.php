@@ -9,7 +9,7 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="section-heading">
-                      <h2>Forms</h2>
+                      <h2>Department Registeration</h2>
                     </div>
                     <form id="contact" action="" method="post">
                       <div class="row">
@@ -53,7 +53,7 @@
             </section>
             </div>
             </div>
-                            <!-- **************************************---------------menu & footer--------------********************** -->
+<!-- **************************************---------------menu & footer--------------********************** -->
 
         <?php require_once 'sidebar.php'; ?>
 

@@ -5,7 +5,7 @@
 
 
             <!-- Page Heading -->
-            <!-- <div class="page-heading">
+             <div class="page-heading">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-12">
@@ -14,10 +14,10 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
             
             <!-- Tables -->
-            <!-- <section class="tables">
+            <section class="tables">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-12">
@@ -121,7 +121,7 @@
                   </div>
                 </div>
               </div>
-            </section> -->
+            </section> 
 
             <!-- Forms -->
             <section class="forms">

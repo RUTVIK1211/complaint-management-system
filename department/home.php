@@ -4,7 +4,7 @@
         <div class="tm-col-left"></div>
             <main class="tm-col-right">
                     <section class="tm-content tm-about">
-                        <h2 class="mb-5 tm-content-title">About Complain System</h2>
+                        <h2 class="mb-5 tm-content-title">Complain System</h2>
                         <hr class="mb-4">
                         <div class="media my-3">
                             <i class="fas fa-shapes fa-3x p-3 mr-4"></i>
