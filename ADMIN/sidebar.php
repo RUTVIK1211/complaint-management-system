@@ -3,40 +3,45 @@
           <div class="inner">
 
             <!-- Search Box -->
-            <section id="search" class="alt">
+            <!-- <section id="search" class="alt">
               <form method="get" action="#">
                 <input type="text" name="search" id="search" placeholder="Search..." />
               </form>
-            </section>
+            </section> -->
               
             <!-- Menu -->
             <nav id="menu">
               <ul>
-                <li><a href="home.php">Homepage</a></li>
-                <li><a href="AddDepartment.php">Add Department</a></li>
-                <li><a href="ViewDepartment.php">View Department</a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="home.php">About</a></li>
+                <li><a href="home.php">Add New Temporary Name</a></li>
                 <li>
-                  <span class="opener">Dropdown One</span>
+                  <span class="opener">Complain</span>
                   <ul>
-                    <li><a href="#">First Sub Menu</a></li>
-                    <li><a href="#">Second Sub Menu</a></li>
-                    <li><a href="#">Third Sub Menu</a></li>
+                     <li><a href="AddDepartment.php">Pending Complain</a></li>
+                     <li><a href="AddDepartment.php">Unresolved Complain</a></li>
+                     <li><a href="ViewDepartment.php">Resolved Complain</a></li> 
                   </ul>
                 </li>
                 <li>
-                  <span class="opener">Dropdown Two</span>
+                  <span class="opener">Department</span>
                   <ul>
-                    <li><a href="#">Sub Menu #1</a></li>
-                    <li><a href="#">Sub Menu #2</a></li>
-                    <li><a href="#">Sub Menu #3</a></li>
+                     <li><a href="AddDepartment.php">Add Department</a></li>
+                     <li><a href="ViewDepartment.php">View Department</a></li> 
                   </ul>
                 </li>
-                <li><a href="https://www.google.com">External Link</a></li>
+                <li>
+                  <span class="opener">Student</span>
+                  <ul>
+                    <li><a href="#">All Student</a></li>
+                    <li><a href="#">All Flagged Student</a></li>
+                  </ul>
+                </li>
               </ul>
             </nav>
 
             <!-- Featured Posts -->
-            <div class="featured-posts">
+            <!-- <div class="featured-posts">
               <div class="heading">
                 <h2>Featured Posts</h2>
               </div>
@@ -60,12 +65,12 @@
                   </div>
                 </a>
               </div>
-            </div>
+            </div> -->
         
             <!-- Footer -->
             <footer id="footer">
-              <p class="copyright">Copyright &copy; 20 ABIJR
-              <br>Designed by <a rel="nofollow" href="index.php">ABIJR</a></p>
+              <p class="copyright">Copyright &copy; 2020 ABIJR
+              <br>Designed by ABIJR </p>
             </footer>
         </div>
       </div>

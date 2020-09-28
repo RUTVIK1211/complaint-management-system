@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 12, 2020 at 07:25 PM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.1
+-- Generation Time: Sep 28, 2020 at 10:00 AM
+-- Server version: 5.6.38-log
+-- PHP Version: 7.3.19
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -31,7 +31,7 @@ CREATE TABLE `admin` (
   `a_id` int(11) NOT NULL,
   `username` varchar(50) NOT NULL,
   `password` varchar(150) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -48,8 +48,8 @@ CREATE TABLE `complain` (
   `details` varchar(255) NOT NULL,
   `forwarded_by` int(11) NOT NULL,
   `dept` int(11) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -64,8 +64,20 @@ CREATE TABLE `department` (
   `manageby` varchar(50) NOT NULL,
   `managebyid` int(11) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `otp`
+--
+
+CREATE TABLE `otp` (
+  `id` int(11) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `sent_otp` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -74,71 +86,77 @@ CREATE TABLE `department` (
 --
 
 CREATE TABLE `student` (
-  `enroll` bigint(25) NOT NULL,
-  `name` varchar(50) DEFAULT NULL,
-  `sem` int(4) NOT NULL,
-  `dept_id` int(11) NOT NULL,
-  `email` varchar(150) NOT NULL,
-  `contact` varchar(12) NOT NULL,
+  `stud_no` int(11) NOT NULL,
+  `enroll` bigint(12) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `sem` int(1) NOT NULL,
+  `dept` varchar(25) NOT NULL,
+  `contact` int(10) NOT NULL,
+  `email` varchar(50) NOT NULL,
   `temp_name` varchar(50) NOT NULL,
-  `created_at` time NOT NULL DEFAULT current_timestamp(),
-  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  `flag` enum('inactive','active','flagged') NOT NULL,
-  `counter` int(4) NOT NULL,
-  `password` varchar(150) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `counter` int(5) NOT NULL,
+  `flag` enum('Hidden','Revealed') NOT NULL,
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `temporary_name`
+--
+
+CREATE TABLE `temporary_name` (
+  `id` int(11) NOT NULL,
+  `temp_name` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `admin`
+-- Indexes for table `otp`
 --
-ALTER TABLE `admin`
-  ADD PRIMARY KEY (`a_id`),
-  ADD UNIQUE KEY `username` (`username`);
-
---
--- Indexes for table `complain`
---
-ALTER TABLE `complain`
-  ADD PRIMARY KEY (`c_id`);
-
---
--- Indexes for table `department`
---
-ALTER TABLE `department`
-  ADD PRIMARY KEY (`dept_id`);
+ALTER TABLE `otp`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `student`
 --
 ALTER TABLE `student`
-  ADD PRIMARY KEY (`enroll`),
-  ADD UNIQUE KEY `email` (`email`);
+  ADD PRIMARY KEY (`stud_no`,`enroll`),
+  ADD UNIQUE KEY `stud_no` (`stud_no`),
+  ADD UNIQUE KEY `enroll` (`enroll`);
+
+--
+-- Indexes for table `temporary_name`
+--
+ALTER TABLE `temporary_name`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT for table `admin`
+-- AUTO_INCREMENT for table `otp`
 --
-ALTER TABLE `admin`
-  MODIFY `a_id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `otp`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `complain`
+-- AUTO_INCREMENT for table `student`
 --
-ALTER TABLE `complain`
-  MODIFY `c_id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `student`
+  MODIFY `stud_no` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `department`
+-- AUTO_INCREMENT for table `temporary_name`
 --
-ALTER TABLE `department`
-  MODIFY `dept_id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `temporary_name`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

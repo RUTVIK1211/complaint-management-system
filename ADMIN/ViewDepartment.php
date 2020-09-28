@@ -1,9 +1,5 @@
 <?php require_once 'header.php'; ?>
-
-
-           
-            
-            <!-- Tables -->
+<!-- Tables -->
             <section class="tables">
               <div class="container-fluid">
                 <div class="row">
