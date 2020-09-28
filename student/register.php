@@ -56,6 +56,12 @@
                             <div class="form-group mb-4">
                                 <input type="tel" name="contact" class="form-control" placeholder="Contact No" pattern="[0-9]{10}" title="Write correct Phone number of 10 digit" />
                             </div>
+                           	<div class="form-group mb-4" align="center">
+                                <button type="button" class="btn btn-big btn-primary">Send OTP</button>
+                            </div>
+                            <div class="form-group mb-4" >
+                                <input type="text" name="contact" class="form-control" placeholder="Enter OTP" required="" title="Enter Otp" />
+                            </div>
                             <div class="text-right">
                                 <button type="submit" class="btn btn-big btn-primary">Register Me!!</button>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
