@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 28, 2020 at 10:00 AM
+-- Generation Time: Oct 17, 2020 at 07:03 PM
 -- Server version: 5.6.38-log
 -- PHP Version: 7.3.19
 
@@ -92,14 +92,21 @@ CREATE TABLE `student` (
   `name` varchar(50) NOT NULL,
   `sem` int(1) NOT NULL,
   `dept` varchar(25) NOT NULL,
-  `contact` int(10) NOT NULL,
+  `contact` bigint(10) NOT NULL,
   `email` varchar(50) NOT NULL,
-  `temp_name` varchar(50) NOT NULL,
+  `temp_name` varchar(50) DEFAULT NULL,
   `counter` int(5) NOT NULL,
   `flag` enum('Hidden','Revealed') NOT NULL,
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `student`
+--
+
+INSERT INTO `student` (`stud_no`, `enroll`, `password`, `name`, `sem`, `dept`, `contact`, `email`, `temp_name`, `counter`, `flag`, `created_at`, `updated_at`) VALUES
+(1, 191203116002, 'Banshita@123', 'Banshita Gangwar', 5, 'I.T', 9499554801, 'banshitagangwar2000@gmail.com', 'Hippo1', 0, '', '2020-10-17 22:28:06', '2020-10-17 22:28:06');
 
 -- --------------------------------------------------------
 
@@ -111,6 +118,18 @@ CREATE TABLE `temporary_name` (
   `id` int(11) NOT NULL,
   `temp_name` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `temporary_name`
+--
+
+INSERT INTO `temporary_name` (`id`, `temp_name`) VALUES
+(1, 'Rose'),
+(2, 'Hippo'),
+(3, 'Monkey'),
+(4, 'Snake'),
+(5, 'Simba'),
+(6, 'Lotus');
 
 --
 -- Indexes for dumped tables
@@ -150,13 +169,13 @@ ALTER TABLE `otp`
 -- AUTO_INCREMENT for table `student`
 --
 ALTER TABLE `student`
-  MODIFY `stud_no` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `stud_no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `temporary_name`
 --
 ALTER TABLE `temporary_name`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

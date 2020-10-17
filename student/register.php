@@ -34,36 +34,36 @@
                     <!-- Content -->
                     <section class="tm-content tm-contact">
                         <h3 class="mb-4 tm-content-title">Registeration</h3>
-                        <form id="contact-form" action="" method="POST">
+                        <form id="contact-form" action="stud_controller.php" method="POST">
                             <div class="form-group mb-4">
-                                <input type="text" name="name" class="form-control" placeholder="Full Name"  />
+                                <input type="text" name="name" class="form-control" placeholder="Full Name" required="" />
                             </div>
                             <div class="form-group mb-4">
-                                <input type="email" name="email" class="form-control" placeholder="Email id"  />
+                                <input type="email" name="email" class="form-control" placeholder="Email id"  required/>
                             </div>
                             <div class="form-group mb-4">
-                                <input type="password" name="password" class="form-control" placeholder="Password"  />
+                                <input type="password" name="password" class="form-control" placeholder="Password" required />
                             </div>
                             <div class="form-group mb-4">
-                                <input type="text" name="enroll_no" class="form-control" placeholder="Enrollment No"  />
+                                <input type="text" name="enroll" class="form-control" placeholder="Enrollment No" required />
                             </div>
                             <div class="form-group mb-4">
-                                <input type="type" name="sem" class="form-control" placeholder="Semester" />
+                                <input type="type" name="sem" class="form-control" placeholder="Semester" required />
                             </div>
                             <div class="form-group mb-4">
-                                <input type="text" name="dept" class="form-control" placeholder="Department"  />
+                                <input type="text" name="dept" class="form-control" placeholder="Department" required />
                             </div>
                             <div class="form-group mb-4">
-                                <input type="tel" name="contact" class="form-control" placeholder="Contact No" pattern="[0-9]{10}" title="Write correct Phone number of 10 digit" />
+                                <input type="tel" name="contact" class="form-control" placeholder="Contact No" pattern="[0-9]{10}" title="Phone no must me digits" required/>
                             </div>
-                           	<div class="form-group mb-4" align="center">
+                           	<!-- <div class="form-group mb-4" align="center">
                                 <button type="button" class="btn btn-big btn-primary">Send OTP</button>
                             </div>
                             <div class="form-group mb-4" >
                                 <input type="text" name="contact" class="form-control" placeholder="Enter OTP" required="" title="Enter Otp" />
-                            </div>
+                            </div> -->
                             <div class="text-right">
-                                <button type="submit" class="btn btn-big btn-primary">Register Me!!</button>
+                                <button type="submit" class="btn btn-big btn-primary " name="action" value="register">Register Me!!</button>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <button type="Reset" class="btn btn-big btn-primary">Reset</button>
                             </div>
